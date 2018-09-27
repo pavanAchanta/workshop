@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+
+int main()
+
+{
+    
+    int num,i,num,sum,queries;
+
+    scanf("%d",&queries);
+
+    for(i=1;i<=queries;i++)
+ 
+   {
+
+        sum=0;
+
+        scanf("%d",&num);
+
+    for(fact=1;fact<num;fact++)
+    
+    {
+ 
+            sum=sum+fact;
+  
+    }
+    
+    printf("%d ",sum);
+
+    }
+
+    return 0;
+
+}
+
+sample input:
+3
+8 10 20 
+
+required o/p:7 8 22

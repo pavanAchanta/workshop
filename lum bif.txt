@@ -1,0 +1,21 @@
+#include<stdio.h>                       REQUIRED Output:
+int fun(int num)                             1 2 3 5 8 13
+{
+    if(num==0 || num==1)
+    {
+        return 1;
+    }
+    else
+    {
+        return (fun(num-1)*num);
+    }
+}
+void main()
+{
+   int i,n;
+   n=6;
+   for(i=1;i<=n;i++)
+   {
+       printf("%d ",fun(i));
+   }
+}
