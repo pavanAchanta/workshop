@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+    int n=7,i;
+    for(i=1;i<10;i++)
+    {
+        if(i%2==0)
+        {
+            printf("%d \n",2*((i)));
+        }
+        else{
+            printf("%d \n",3*(i+1));
+        }
+    }
+}
+
+Required output:3 2 6 4 9 6 12 8 15
